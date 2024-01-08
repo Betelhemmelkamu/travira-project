@@ -1,0 +1,827 @@
+body {
+  margin: 0;
+  line-height: normal;
+ 
+}
+
+:root {
+  /* fonts */
+  --font-inter: Inter;
+  --font-poppins: Poppins;
+
+  /* font sizes */
+  --font-size-13xl: 2rem;
+  --font-size-base-8: 1.05rem;
+  --font-size-2xl: 1.31rem;
+  --font-size-base: 1rem;
+  --font-size-5xl: 1.5rem;
+  --font-size-45xl: 4rem;
+  --font-size-9xl: 1.75rem;
+  --font-size-17xl: 2.25rem;
+
+  /* Colors */
+  --color-white: #fff;
+  --color-gray-100: #232323;
+  --color-gray-200: #0e1035;
+  --mobile-neutral-light-text: #9c9c9c;
+  --color-secondary: #676767;
+  --blue-1: #2f80ed;
+  --gray-1: #333;
+
+  /* Gaps */
+  --gap-14xl-7: 2.11rem;
+  --gap-base-8: 1.05rem;
+  --gap-5xl: 1.5rem;
+  --gap-13xl: 2rem;
+  --gap-5xs: 0.5rem;
+
+  /* Paddings */
+  --padding-13xl: 2rem;
+  --padding-49xl: 4.25rem;
+  --padding-6xl: 1.56rem;
+
+  /* Border radiuses */
+  --br-12xl-5: 31.5px;
+  --br-11xl: 30px;
+  --br-31xl: 50px;
+
+  /* Effects */
+  --shadow-2: 30px 10px 50px rgba(152, 149, 149, 0.3);
+}
+
+.image-icon {
+  position: absolute;
+  top: 0;
+  left: 31.06rem;
+  width: 83.87rem;
+  height: 78.58rem;
+  object-fit: cover;
+}
+.charter-and-maintenance {
+  color: var(--color-gray-200);
+}
+.world-class-charter-container {
+  position: absolute;
+  top: 0;
+  left: 0.13rem;
+  display: inline-block;
+  width: 48.38rem;
+}
+.booking-now {
+  position: relative;
+  line-height: 140%;
+}
+.cta {
+  position: absolute;
+  top: 31.69rem;
+  left: 0.06rem;
+  border-radius: 31.54px;
+  background-color: var(--color-gray-200);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-13xl) var(--padding-49xl);
+  font-size: var(--font-size-13xl);
+  color: var(--color-white);
+}
+.our-goal-is {
+  position: absolute;
+  top: 19.75rem;
+  left: 0;
+  font-size: var(--font-size-5xl);
+  line-height: 150%;
+  font-weight: 500;
+  color: var(--color-secondary);
+  display: inline-block;
+  width: 40.13rem;
+}
+.world-class-charter-and-mainte-parent {
+  position: absolute;
+  top: 25.5rem;
+  left: 0;
+  width: 48.5rem;
+  height: 38.5rem;
+}
+.hero-section {
+  position: absolute;
+  top: -3.94rem;
+  left: 7.5rem;
+  width: 114.93rem;
+  height: 78.58rem;
+  font-size: 4.88rem;
+  color: var(--blue-1);
+}
+.icon {
+  position: relative;
+  width: 7.63rem;
+  height: 7.63rem;
+  object-fit: cover;
+}
+.about,
+.home {
+  position: relative;
+  line-height: 140%;
+}
+.home {
+  color: var(--blue-1);
+}
+.about {
+  font-weight: 500;
+}
+.home-parent {
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 2.63rem;
+}
+.contact-us-wrapper,
+.frame-wrapper {
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.contact-us-wrapper {
+  border-radius: 31.54px;
+  justify-content: center;
+  padding: 1.05rem 2.63rem;
+}
+.frame-wrapper {
+  border-radius: 16px;
+  border: 1px solid #000;
+  justify-content: flex-start;
+  color: var(--color-gray-200);
+}
+.navbar,
+.parent {
+  position: absolute;
+  width: 92.88rem;
+}
+.parent {
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.navbar {
+  top: 3rem;
+  left: 7.63rem;
+  height: 7.63rem;
+  font-size: var(--font-size-2xl);
+  color: var(--gray-1);
+  font-family: var(--font-poppins);
+}
+.service-child {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-gray-200);
+  width: 108rem;
+  height: 76.56rem;
+}
+.unsplashlwexrpuiwbo-icon {
+  position: relative;
+  border-radius: var(--br-31xl);
+  width: 38rem;
+  height: 35.81rem;
+  object-fit: cover;
+}
+.service2 {
+  color: var(--blue-1);
+}
+.our-service,
+.travira-air-is {
+  position: relative;
+}
+.travira-air-is {
+  font-size: var(--font-size-5xl);
+  line-height: 150%;
+  font-weight: 500;
+  color: #bdbbbb;
+  display: inline-block;
+  width: 40.13rem;
+}
+.our-service-parent {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-13xl);
+}
+.scheduled-spot {
+  position: relative;
+  text-decoration: underline;
+  line-height: 150%;
+}
+.scheduled-spot-charter-parent {
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xl);
+}
+.frame-group {
+  position: absolute;
+  top: 17.25rem;
+  left: 0;
+  width: 45.88rem;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  font-size: var(--font-size-5xl);
+}
+.frame-parent {
+  position: relative;
+  width: 45.88rem;
+  height: 30.75rem;
+}
+.unsplashlwexrpuiwbo-parent {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 8.94rem;
+}
+.service-inner {
+  position: absolute;
+  top: 30.06rem;
+  left: 7.5rem;
+  width: 92.81rem;
+  height: 35.81rem;
+}
+.that-have-used {
+  font-weight: 500;
+  color: var(--color-white);
+}
+.abovefoldsub-headline {
+  position: absolute;
+  top: 3.94rem;
+  left: 30.63rem;
+  line-height: 140%;
+}
+.purepng-1-icon {
+  position: relative;
+  width: 6.88rem;
+  height: 7.06rem;
+  object-fit: cover;
+}
+.exxon-mobil-1,
+.pertamina-logo-wb-1-icon {
+  position: relative;
+  width: 17.5rem;
+  height: 3.63rem;
+  object-fit: cover;
+}
+.pertamina-logo-wb-1-icon {
+  width: 22.06rem;
+  height: 5.56rem;
+}
+.a6cddd01f7c8005a494246-petrona-icon {
+  position: relative;
+  width: 17.75rem;
+  height: 4.88rem;
+  object-fit: cover;
+}
+.companies,
+.testimonibrands {
+  position: absolute;
+  width: 92.88rem;
+}
+.testimonibrands {
+  top: 10.81rem;
+  left: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.companies {
+  top: 2.75rem;
+  left: 7.63rem;
+  height: 21.63rem;
+  font-size: 1.58rem;
+  color: var(--blue-1);
+  font-family: var(--font-poppins);
+}
+.service1 {
+  position: absolute;
+  top: 69.25rem;
+  left: 0;
+  width: 108rem;
+  height: 76.56rem;
+  color: var(--color-white);
+}
+.frame-div,
+.it-is-a {
+  font-size: var(--font-size-5xl);
+}
+.it-is-a {
+  position: relative;
+  line-height: 150%;
+  font-weight: 500;
+  color: var(--color-secondary);
+  display: inline-block;
+  width: 40.13rem;
+}
+.frame-div {
+  position: absolute;
+  top: 17.25rem;
+  left: 0;
+  width: 47.44rem;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.frame-container {
+  position: relative;
+  width: 47.44rem;
+  height: 34.5rem;
+}
+.group-parent {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 92.56rem;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.safety-inner,
+.safety1 {
+  position: absolute;
+  width: 92.56rem;
+  height: 35.81rem;
+}
+.safety-inner {
+  top: 0;
+  left: 0;
+}
+.safety1 {
+  top: 153.44rem;
+  left: 7.69rem;
+}
+.fleet1 {
+  position: absolute;
+  top: 0;
+  left: 17.13rem;
+}
+.travira-air-is1 {
+  position: absolute;
+  top: 6.31rem;
+  left: 0;
+  font-size: var(--font-size-5xl);
+  line-height: 150%;
+  font-weight: 500;
+  color: var(--color-secondary);
+  text-align: center;
+  display: inline-block;
+  width: 46.5rem;
+}
+.fleet-parent {
+  position: absolute;
+  top: 0;
+  left: 30.56rem;
+  width: 46.5rem;
+  height: 10.81rem;
+}
+.group-child {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-31xl);
+  background-color: var(--color-white);
+  box-shadow: 0 4px 50px rgba(116, 116, 116, 0.25);
+  width: 43.13rem;
+  height: 37.06rem;
+}
+.unsplashyqorcngxzwi-icon {
+  position: absolute;
+  top: 0;
+  left: 0.12rem;
+  border-radius: var(--br-31xl) var(--br-31xl) 0 0;
+  width: 43.01rem;
+  height: 27.44rem;
+  object-fit: cover;
+}
+.cc4218b515f3df95fe714d9384b92-icon {
+  position: absolute;
+  top: 3.56rem;
+  left: 3.76rem;
+  width: 33.14rem;
+  height: 19.5rem;
+  object-fit: cover;
+}
+.cessna-208-caravan {
+  position: absolute;
+  top: 30.75rem;
+  left: 8.75rem;
+  line-height: 150%;
+  font-weight: 600;
+}
+.rectangle-parent {
+  position: relative;
+  width: 43.13rem;
+  height: 37.06rem;
+}
+.b3df2702dda96692be6e83fd140d93-icon {
+  position: absolute;
+  top: 7.38rem;
+  left: 2.3rem;
+  width: 38.33rem;
+  height: 12.94rem;
+  object-fit: cover;
+}
+.beechcraft-b1900d {
+  position: absolute;
+  top: 30.06rem;
+  left: 9.21rem;
+  line-height: 150%;
+  font-weight: 600;
+}
+.d89289c158dcf4808ac9b64724df06-icon {
+  position: absolute;
+  top: 7.38rem;
+  left: 2.31rem;
+  width: 36.81rem;
+  height: 10.06rem;
+  object-fit: cover;
+}
+.atr-72-600 {
+  position: absolute;
+  top: 30.06rem;
+  left: 8.65rem;
+  line-height: 150%;
+  font-weight: 600;
+  display: inline-block;
+  width: 25.58rem;
+}
+.group-parent1 {
+  position: absolute;
+  top: 0;
+  left: 7.25rem;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 4rem;
+}
+.frame-wrapper1 {
+  position: absolute;
+  top: 17.25rem;
+  left: 0;
+  width: 107.69rem;
+  height: 37.06rem;
+
+  text-align: center;
+  font-size: var(--font-size-17xl);
+  
+}
+.fleet,
+.group-container {
+  position: absolute;
+  height: 54.31rem;
+}
+.group-container {
+  top: 0;
+  left: -7.31rem;
+  width: 107.69rem;
+}
+.fleet {
+  top: 198.69rem;
+  left: 7.5rem;
+  width: 137.38rem;
+}
+.unsplashvkpvpcibu5u-icon {
+  position: absolute;
+  top: 0;
+  left: 59.69rem;
+  width: 40.38rem;
+  height: 69rem;
+  object-fit: cover;
+}
+.image-22-icon {
+  position: relative;
+  border-radius: 180px;
+  width: 6.25rem;
+  height: 6.25rem;
+  object-fit: cover;
+}
+.ade-pranaya {
+  position: relative;
+  letter-spacing: 0.01em;
+  line-height: 150%;
+}
+.pt-pertamina {
+  position: relative;
+  font-size: var(--font-size-base);
+  line-height: 1.75rem;
+  font-weight: 600;
+  color: var(--mobile-neutral-light-text);
+}
+.ade-pranaya-parent,
+.testimonialsreviewer {
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.testimonialsreviewer {
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-5xl);
+}
+.thank-you-travira {
+  position: relative;
+  line-height: 1.75rem;
+  display: inline-block;
+  width: 31.25rem;
+}
+.atomstar-yellow-icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1.75rem;
+  height: 1.75rem;
+  overflow: hidden;
+  object-fit: cover;
+}
+.atomstar-yellow-icon1,
+.atomstar-yellow-icon2,
+.atomstar-yellow-icon3,
+.atomstar-yellow-icon4 {
+  position: absolute;
+  top: 0;
+  left: 2.13rem;
+  width: 1.75rem;
+  height: 1.75rem;
+  overflow: hidden;
+  object-fit: cover;
+}
+.atomstar-yellow-icon2,
+.atomstar-yellow-icon3,
+.atomstar-yellow-icon4 {
+  left: 4.25rem;
+}
+.atomstar-yellow-icon3,
+.atomstar-yellow-icon4 {
+  left: 6.38rem;
+}
+.atomstar-yellow-icon4 {
+  left: 8.5rem;
+}
+.atomstar-yellow-parent {
+  position: relative;
+  width: 10.25rem;
+  height: 1.75rem;
+}
+.testimonialsreview,
+.testimonialsreviewer-parent {
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.testimonialsreview {
+  gap: 1.13rem;
+  font-size: var(--font-size-5xl);
+  color: var(--color-gray-200);
+  font-family: var(--font-poppins);
+}
+.testimonialsreviewer-parent {
+  border-radius: var(--br-11xl);
+  background-color: var(--color-white);
+  box-shadow: var(--shadow-2);
+  padding: var(--padding-13xl) var(--padding-6xl);
+  gap: var(--gap-13xl);
+}
+.ellipse-icon {
+  position: relative;
+  border-radius: 50%;
+  width: 6.25rem;
+  height: 6.25rem;
+  object-fit: cover;
+}
+.thank-you-i {
+  margin: 0;
+}
+.frame-parent1,
+.testimonialsreview1 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.testimonialsreview1 {
+  flex-shrink: 0;
+  flex-direction: column;
+  gap: 1rem;
+  font-size: var(--font-size-5xl);
+  color: var(--mobile-neutral-light-text);
+  font-family: var(--font-poppins);
+}
+.frame-parent1 {
+  position: absolute;
+  top: 20.44rem;
+  left: 0;
+  flex-direction: row;
+  gap: var(--gap-5xl);
+}
+.testimonialsheadline {
+  position: absolute;
+  height: 18.03%;
+  width: 40.47%;
+  top: 5.62%;
+  left: 1.56%;
+  font-size: var(--font-size-45xl);
+  letter-spacing: 0.01em;
+  line-height: 150%;
+  display: inline-block;
+}
+.testimony,
+.unsplashvkpvpcibu5u-parent {
+  position: absolute;
+  width: 100.06rem;
+  height: 69rem;
+}
+.unsplashvkpvpcibu5u-parent {
+  top: 0;
+  left: 0;
+}
+.testimony {
+  top: 264.25rem;
+  left: 8.13rem;
+  font-size: var(--font-size-9xl);
+  color: var(--color-gray-100);
+}
+.icon1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 10.81rem;
+  height: 10.81rem;
+  object-fit: cover;
+}
+.blog,
+.wrapper {
+  position: relative;
+}
+.wrapper {
+  width: 10.81rem;
+  height: 10.81rem;
+}
+.blog {
+  line-height: 150%;
+  font-weight: 500;
+}
+.about-parent,
+.company-parent {
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.about-parent {
+  gap: 1.05rem;
+  font-size: var(--font-size-base);
+}
+.company-parent {
+  gap: 2.1rem;
+}
+.commercialtravira-aircom {
+  position: relative;
+  line-height: 150%;
+  font-weight: 500;
+  color: inherit;
+  text-decoration: none;
+}
+.commercialtravira-aircom-parent {
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 1.05rem;
+  font-size: var(--font-size-base-8);
+}
+.commercialtravira-aircom-parent,
+.frame-parent2,
+.office-parent {
+  flex-shrink: 0;
+  display: flex;
+  align-items: flex-start;
+}
+.office-parent {
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 2.1rem;
+  font-size: var(--font-size-2xl);
+  font-family: var(--font-poppins);
+}
+.frame-parent2 {
+  width: 70.63rem;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.footer,
+.group-parent2 {
+  position: absolute;
+  width: 89.44rem;
+}
+.group-parent2 {
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 8.02rem;
+}
+.footer {
+  top: 355.56rem;
+  left: 11.06rem;
+  height: 12.27rem;
+  font-size: var(--font-size-5xl);
+}
+.contact-child,
+.mask-group-icon {
+  position: absolute;
+  height: 26.38rem;
+}
+.contact-child {
+  top: 0.5rem;
+  left: -0.06rem;
+  border-radius: 84.12px;
+  background-color: var(--color-gray-200);
+  width: 93.06rem;
+}
+.mask-group-icon {
+  top: 0.48rem;
+  left: -0.09rem;
+  width: 93.09rem;
+  object-fit: cover;
+}
+.dont-hesitate-to-container {
+  position: relative;
+  line-height: 120%;
+  font-weight: 600;
+}
+.contact-us-container {
+  border-radius: 31.54px;
+  background-color: var(--color-white);
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-13xl) var(--padding-49xl);
+  font-size: var(--font-size-13xl);
+  color: var(--color-gray-200);
+  font-family: var(--font-inter);
+}
+.dont-hesitate-to-contact-us-parent {
+  position: absolute;
+  top: 10.19rem;
+  left: 7.13rem;
+  width: 78.81rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.contact {
+  position: absolute;
+  top: 316.81rem;
+  left: 7.5rem;
+  width: 93rem;
+  height: 27.31rem;
+  font-size: 2.89rem;
+  color: var(--color-white);
+  font-family: var(--font-poppins);
+}
+.travira-air {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 371.75rem;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-45xl);
+  color: var(--color-gray-200);
+  font-family: var(--font-inter);
+}
